@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnspedHealth.API", "UnspedHealth.API\UnspedHealth.API.csproj", "{F628DF80-6C79-45D0-9FE6-0A82432591EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnspedHealth.Worker", "UnspedHealth.NotifyWorker\UnspedHealth.Worker.csproj", "{008F8979-49F5-413C-9C6C-CCD25536DBCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnspedHealth.Core", "UnspedHealth.Core\UnspedHealth.Core.csproj", "{48A11ED4-92D5-4B6F-9B63-91B2966B2DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnspedHealth.Client", "UnspedHealth.Client\UnspedHealth.Client.csproj", "{DA137EEA-BF00-4DE5-B383-621930625C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnspedHealth.SimulatorApp", "UnspedHealth.SimulatorConsole\UnspedHealth.SimulatorApp.csproj", "{CCBED627-2CFE-4176-BCD9-EFBCF700BCDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnspedHealth.Agent", "UnspedHealth.Agent\UnspedHealth.Agent.csproj", "{224DAD26-5ECA-4370-8542-C18EE64B2901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F628DF80-6C79-45D0-9FE6-0A82432591EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F628DF80-6C79-45D0-9FE6-0A82432591EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F628DF80-6C79-45D0-9FE6-0A82432591EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F628DF80-6C79-45D0-9FE6-0A82432591EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008F8979-49F5-413C-9C6C-CCD25536DBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008F8979-49F5-413C-9C6C-CCD25536DBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008F8979-49F5-413C-9C6C-CCD25536DBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008F8979-49F5-413C-9C6C-CCD25536DBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A11ED4-92D5-4B6F-9B63-91B2966B2DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A11ED4-92D5-4B6F-9B63-91B2966B2DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A11ED4-92D5-4B6F-9B63-91B2966B2DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A11ED4-92D5-4B6F-9B63-91B2966B2DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA137EEA-BF00-4DE5-B383-621930625C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA137EEA-BF00-4DE5-B383-621930625C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA137EEA-BF00-4DE5-B383-621930625C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA137EEA-BF00-4DE5-B383-621930625C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBED627-2CFE-4176-BCD9-EFBCF700BCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBED627-2CFE-4176-BCD9-EFBCF700BCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBED627-2CFE-4176-BCD9-EFBCF700BCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBED627-2CFE-4176-BCD9-EFBCF700BCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224DAD26-5ECA-4370-8542-C18EE64B2901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224DAD26-5ECA-4370-8542-C18EE64B2901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224DAD26-5ECA-4370-8542-C18EE64B2901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224DAD26-5ECA-4370-8542-C18EE64B2901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDFD6866-813F-40F8-B175-1362605FCF36}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@UnspedHealth.Agent_HostAddress = http://localhost:5132
+
+GET {{UnspedHealth.Agent_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
